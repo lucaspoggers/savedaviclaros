@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: comic;
+  src: url(Ldfcomicsans-jj7l.ttf);
+}
+
+body {
+  background-image: url(imagens/tile.png);
+}
+
+p {
+  font-family: comic;
+  color: yellow;
+  font-size: 25px;
+  line-height: 1.2em;
+  margin: 4em;
+  text-align: center;
+}
+
+h2 {
+  font-family: comic;
+  font-size: 40px;
+  color: yellow;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 112px;
+  font-family: "Times New Roman", Times, serif, Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-davi {
+  border: 20px;
+  border-style: solid;
+  border-color: rgb(175, 175, 7);
+}
+
+.galeriazinha {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.fotodavi {
+  border: 5px groove rgb(202, 202, 202);
+}
+
+.galeriazinha2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.davi5 {
+  border: 5px groove rgb(202, 202, 202);
+}
+.fim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+footer {
+  align-items: center;
+}
