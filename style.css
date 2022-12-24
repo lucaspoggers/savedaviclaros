@@ -106,3 +106,17 @@ footer {
     margin: 2em;
   }
 }
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .fotodavi {
+    width: 100px;
+  }
+}
